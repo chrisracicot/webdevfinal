@@ -19,7 +19,6 @@ export default function Page() {
         >
           <div className="bg-black bg-opacity-50 text-center text-white h-full flex flex-col items-center justify-center">
             <h2 className="text-xl font-bold">View Certificates</h2>
-            <p className="text-sm">Click to explore</p>
           </div>
         </Link>
       </div>
