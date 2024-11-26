@@ -16,6 +16,7 @@ export default function Page() {
           style={{
             backgroundImage: "url('/certificates/Hackathon-Participation.png')",
           }}
+          // test
         >
           <div className="bg-black bg-opacity-50 text-center text-white h-full flex flex-col items-center justify-center">
             <h2 className="text-xl font-bold">View Certificates</h2>
