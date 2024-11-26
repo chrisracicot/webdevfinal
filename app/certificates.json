@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "LinkedIn Learning - Learning Git and GitHub",
+    "date": "April 21, 2024",
+    "file": "/certificates/CertificateOfCompletion_Learning-Git-and-GitHub.jpg"
+  },
+  {
+    "id": 2,
+    "title": "NDG Linux Unhatched Certificate",
+    "date": "April 12, 2024",
+    "file": "/certificates/NDG-Linux-certificate.jpg"
+  },
+  {
+    "id": 3,
+    "title": "SAIT HACK Hackathon - Certificate of Participation",
+    "date": "December 15, 2023",
+    "file": "/certificates/Hackathon-Participation.png"
+  }
+]
