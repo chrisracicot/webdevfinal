@@ -28,7 +28,7 @@ export default function Page() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-500 to-purple-600 text-white flex flex-col items-center justify-center">
       <h1 className="mt-8 text-5xl sm:text-4xl font-bold animate-fadeIn">
-        Christin Racicot's Portfolio
+        Christin Racicot&apos;s Portfolio
       </h1>
       <p className="mt-4 text-lg text-center px-4">
         Explore my profiles, certificates and web apps!
