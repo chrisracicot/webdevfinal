@@ -1,27 +1,14 @@
 'use client';
 
-import { useEffect, useRef } from 'react';
+import Script from 'next/script';
 
 export default function AutoPongPage() {
-    const canvasRef = useRef(null);
-
-    useEffect(() => {
-        // Load the game script dynamically
-        const script = document.createElement('script');
-        script.src = '/autopong/game.js';
-        script.async = true;
-        document.body.appendChild(script);
-
-        return () => {
-            // Cleanup: remove script and any global listeners if necessary
-            // Note: game.js is wrapped in an IIFE, but we might want to 
-            // handle canvas-specific resets if navigating away.
-            document.body.removeChild(script);
-        };
-    }, []);
-
     return (
         <div className="autopong-container">
+            <Script
+                src="/autopong-game.js"
+                strategy="afterInteractive"
+            />
             <style jsx global>{`
         .autopong-container {
           min-height: 100vh;
